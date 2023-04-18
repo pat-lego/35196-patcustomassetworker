@@ -1,4 +1,4 @@
-# PatCustomAssetWorker
+# Pat Custom Asset Worker
 
 Welcome to my Adobe I/O Application!
 
