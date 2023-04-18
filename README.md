@@ -102,6 +102,8 @@ and make sure you have the below config added
   - Note: Create an AEMaaCS Custom Profile, copy the URL and paste it in the Endpoint (note that if you are in org AEM Support you need to make sure that the function is deployed in AEM Support in the Developer Console)
   - The rendition name and extension is the name of the rendition that gets put in the JCR under the renditions JSON
 
+https://adobe-my.sharepoint.com/:p:/p/plegault/EQHqxyQBiaVNi7XttHoO9M4Bye3rTPqRLGFFMykIVVllGA?e=8cYN7e
+
 ## Sample Project for Asset Compute
 
 https://developer.adobe.com/console/projects/35196/4566206088344951925/overview
