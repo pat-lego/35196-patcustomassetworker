@@ -38,6 +38,27 @@ You can generate this file using the command `aio app use`.
 # AIO_RUNTIME_NAMESPACE=
 ```
 
+### Inclusion of variables
+
+Make sure to add these variables to the project when performing a deploy
+
+```
+# Set the absolute path to the 35196-patcustomassetworker-stage/config/private.key file (i.e. /Users/patriquelegault/Documents/repos/35196-patcustomassetworker-stage/config/private.key)
+#ASSET_COMPUTE_PRIVATE_KEY_FILE_PATH=
+#Set the name to the S3_BUCKET (i.e. asset-compute-worker)
+#S3_BUCKET=
+#Set the ACCESS_KEY_ID for the bucket, (i.e. create an IAM user and create an access control)
+#AWS_ACCESS_KEY_ID=
+#Set the access key for the AWS SECRET
+#AWS_SECRET_ACCESS_KEY=
+#Set the region that the bucket resides in
+#AWS_REGION=
+#Set the AZURE configurations for AIO Asset Compute Worker
+#AZURE_STORAGE_ACCOUNT=
+#AZURE_STORAGE_KEY=
+#AZURE_STORAGE_CONTAINER_NAME=
+```
+
 ### `app.config.yaml`
 
 - Main configuration file that defines an application's implementation. 
